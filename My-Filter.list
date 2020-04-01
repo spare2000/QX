@@ -2,7 +2,7 @@
 
 # Advertising 广告
 # > General
-DOMAIN-SUFFIX-keyword, adservice, REJECT
+DOMAIN-keyword, adservice, REJECT
 DOMAIN-SUFFIX, ad.cmvideo.cn, REJECT
 DOMAIN-SUFFIX, ad.daum.net, REJECT
 DOMAIN-SUFFIX, adcolony.com, REJECT
