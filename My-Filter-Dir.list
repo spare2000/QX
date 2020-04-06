@@ -1,17 +1,36 @@
-#2020.04.03
+#2020.04.06
+
+# Apple Music
+host, aod.itunes.apple.com, direct
+host, api.smoot.apple.cn, direct
+host, mvod.itunes.apple.com, direct
+# > App Store
+user-agent, com.apple.appstored*, direct
+host-suffix, mzstatic.com, direct
+host, iosapps.itunes.apple.com, direct
+host, osxapps.itunes.apple.com, direct
+# > Update
+host, supportdownload.apple.com, direct
+host, appldnld.apple.com, direct
+host, swcdn.apple.com, direct
+host, apptrailers.itunes.apple.com, direct
+host, updates-http.cdn-apple.com, direct
+host, www-cdn.icloud.com.akadns.net,direct
+
+# direct.list
+host-suffix, aaplimg.com, direct
+host-suffix, apple.co, direct
+host-suffix, apple.com, direct
+host-suffix, appstore.com,direct
+host-suffix, apple-cloudkit.com, direct
+host-suffix, appsto.re, direct
+host-suffix, cdn-apple.com, direct
+host-suffix, icloud.com, direct
+host-suffix, icloud-content.com, direct
+host-suffix, itunes.com, direct
+host-suffix, me.com, direct
 
 # Apple
-DOMAIN,aaplimg.com,Direct
-DOMAIN,apple.co,Direct
-DOMAIN,apple.com,Direct
-DOMAIN,apple-cloudkit.com,Direct
-DOMAIN,appstore.com,Direct
-DOMAIN,cdn-apple.com,Direct
-DOMAIN,icloud.com,Direct
-DOMAIN,icloud-content.com,Direct
-DOMAIN,me.com,Direct
-DOMAIN,mzstatic.com,Direct
-DOMAIN,www-cdn.icloud.com.akadns.net,Direct
 IP-CIDR,17.0.0.0/8,Direct
 USER-AGENT,*com.apple.mobileme.fmip1,direct
 USER-AGENT,*WeatherFoundation*,direct
@@ -23,36 +42,34 @@ USER-AGENT,FindMy*,direct
 USER-AGENT,FMDClient*,direct
 USER-AGENT,FMFD*,direct
 USER-AGENT,fmflocatord*,direct
-USER-AGENT,geod*,direct
-USER-AGENT,locationd*,direct
-DOMAIN,itunes.com,direct
-DOMAIN,api.smoot.apple.cn,direct
+;USER-AGENT,geod*,direct
+;USER-AGENT,locationd*,direct
 
 
 
 # Microsoft
 USER-AGENT,Microsoft*,Direct
 HOST-KEYWORD,microsoft,Direct
-DOMAIN,ms,Direct
-DOMAIN,bing.com,Direct
-DOMAIN,bing.net,Direct
-DOMAIN,hotmail.com,Direct
-DOMAIN,live.com,Direct
-DOMAIN,live.net,Direct
-DOMAIN,microsofttranslator.com,Direct
-DOMAIN,msauth.net,Direct
-DOMAIN,msecnd.net,Direct
-DOMAIN,msocdn.com,Direct
-DOMAIN,msedge.net,Direct
-DOMAIN,msn.com,Direct
-DOMAIN,office.com,Direct
-DOMAIN,office.net,Direct
-DOMAIN,office365.com,Direct
-DOMAIN,onenote.com,Direct 
-DOMAIN,onenote.net,Direct
-DOMAIN,outlook.com,Direct
-DOMAIN,visualstudio.com,Direct
-DOMAIN,windows.com,Direct
-DOMAIN,windows.net,Direct
-DOMAIN,xbox.com,Direct
-DOMAIN,xboxlive.com,Direct
+host,ms,Direct
+host,bing.com,Direct
+host,bing.net,Direct
+host,hotmail.com,Direct
+host,live.com,Direct
+host,live.net,Direct
+host,microsofttranslator.com,Direct
+host,msauth.net,Direct
+host,msecnd.net,Direct
+host,msocdn.com,Direct
+host,msedge.net,Direct
+host,msn.com,Direct
+host,office.com,Direct
+host,office.net,Direct
+host,office365.com,Direct
+host,onenote.com,Direct 
+host,onenote.net,Direct
+host,outlook.com,Direct
+host,visualstudio.com,Direct
+host,windows.com,Direct
+host,windows.net,Direct
+host,xbox.com,Direct
+host,xboxlive.com,Direct
