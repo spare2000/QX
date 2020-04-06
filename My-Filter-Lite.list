@@ -58,7 +58,7 @@ DOMAIN,lnk0.com,REJECT
 DOMAIN,lnk8.cn,REJECT
 DOMAIN,localytics.com,REJECT
 DOMAIN,mdfull.com,REJECT
-DOMAIN,measurementapi.com,REJECT
+;DOMAIN,measurementapi.com,REJECT
 DOMAIN,medialytics.com,REJECT
 DOMAIN,meetrics.com,REJECT
 DOMAIN,meetrics.net,REJECT
