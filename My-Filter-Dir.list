@@ -42,10 +42,8 @@ USER-AGENT,FindMy*,direct
 USER-AGENT,FMDClient*,direct
 USER-AGENT,FMFD*,direct
 USER-AGENT,fmflocatord*,direct
-;USER-AGENT,geod*,direct
-;USER-AGENT,locationd*,direct
-
-
+USER-AGENT,geod*,direct
+USER-AGENT,locationd*,direct
 
 # Microsoft
 USER-AGENT,Microsoft*,Direct
